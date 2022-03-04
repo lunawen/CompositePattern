@@ -13,7 +13,7 @@ namespace CompositePattern.Structural
         {
         }
 
-        public override void Add(Component c)
+        public void Add(Component c)
         {
             children.Add(c);
         }
@@ -27,7 +27,7 @@ namespace CompositePattern.Structural
             }
         }
 
-        public override void Remove(Component c)
+        public void Remove(Component c)
         {
             children.Remove(c);
         }

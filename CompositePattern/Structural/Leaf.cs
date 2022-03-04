@@ -12,19 +12,9 @@ namespace CompositePattern.Structural
         {
         }
 
-        public override void Add(Component c)
-        {
-            throw new NotImplementedException();
-        }
-
         public override void PrimaryOperation(int depth)
         {
             Console.WriteLine(new String('-', depth) + this.Name);
-        }
-
-        public override void Remove(Component c)
-        {
-            throw new NotImplementedException();
         }
     }
 }
