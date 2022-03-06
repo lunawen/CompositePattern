@@ -10,7 +10,7 @@ namespace CompositePattern
     {
         public FileSystemItem(string name)
         {
-            this.Name = Name;
+            this.Name = name;
         }
 
         public object Name { get; }
